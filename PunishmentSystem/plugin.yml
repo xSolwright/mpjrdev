@@ -1,0 +1,31 @@
+name: CubixPunish
+main: cubixcraft.punishments.punisher.Main
+version: 31b
+descrpition: An advanced GUI punish plugin.
+author: xSolwright
+
+commands:
+    punish:
+        description: Opens up the brand new punishment GUI.
+permissions:
+    punish.*:
+        default: op
+        children:
+            punish.open: true
+            punish.ban: true
+            punish.mute: true
+            punish.kick: true
+            punish.warn: true
+            punish.unpunish: true
+    punish.open:
+        default: op
+    punish.ban:
+        default: op
+    punish.mute:
+        default: op
+    punish.kick:
+        default: op
+    punish.warn:
+        default: op
+    punish.unpunish:
+        default: op
